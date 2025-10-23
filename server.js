@@ -28,6 +28,6 @@ server.on("connection", (socket) => {
   console.log(clients);
 });
 
-server.listen(3008, "127.0.0.1", () => {
+server.listen(3008, "44.229.227.142", () => {
   console.log("Server running on port", server.address());
 });
